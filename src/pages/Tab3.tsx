@@ -4,12 +4,12 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 const Tab3Page: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
+      <IonHeader no-border="">
+        <IonToolbar color="primary">
           <IonTitle>Tab Three</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent></IonContent>
+      <IonContent className="content-bg ion-padding"></IonContent>
     </IonPage>
   );
 };

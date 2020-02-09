@@ -1,0 +1,126 @@
+/* rgb(52,53,53) */
+/* rgb(243,244,244) */
+/* #54eb8f */
+
+ion-tab-bar {
+    border: none;
+}
+
+.background-container {
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    position: relative;
+}
+.background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.content-bg {
+    --background: rgb(243,244,244);
+    background: rgb(243,244,244);
+}
+
+.font-10pt {
+    font-size: 10pt;
+}
+.font-12pt {
+    font-size: 12pt;
+}
+
+.order-list-container {
+    --background: none;
+    background: none;
+}
+.order-list-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.product-card-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.product-card-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 80px;
+}
+.product-card-actions {
+    display: flex;
+}
+.product-card-actions-column {
+    display: flex;
+    flex: 1;
+}
+.product-card-actions-icon {
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+    display: flex;
+    font-size: 14pt;
+    height: 30px;
+    width: 30px;
+}
+.product-card-actions-icon-added {
+    border-color: #4de187;
+    color: #4de187;
+}
+.product-card-actions-icon-liked {
+    background: #eb5463 !important;
+    border-color: #eb5463;
+    color: #FFF;
+}
+.product-info-row {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.product-info-column {
+    display: flex;
+    flex: 1;
+}
+.search-products-bar {
+    --background: #ffffff;
+    --border-radius: 10px;
+}
+.segment-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.segment-item {
+    flex: 1;
+    color: #FAFAFA;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12pt;
+    text-align: center;
+    padding: 2px;
+}
+.segment-item-active {
+    background-color: #FFF;
+    border-radius: 20px;
+    color: rgb(52,53,53);
+}
+.shadow {
+    box-shadow: 0 -2px 10px 1px rgb(228, 228, 228);
+}
+.text-primary {
+    color: rgb(52,53,53);
+}
+.text-muted {
+    color: #aaaaaa;
+}
+.text-semibold {
+    font-weight: 600;
+}
